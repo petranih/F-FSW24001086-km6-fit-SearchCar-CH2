@@ -157,14 +157,13 @@ body{
 	}
 }
 
-/* css search */
+/* cars search */
 .search .search__card {
 	background: #FFFFFF;
 	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 	border-radius: 8px;
   }
-
   
   .cars {
 	margin-top: 30px;
@@ -172,24 +171,18 @@ body{
   
   .cars .card {
 	width: 340px;
-	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-			box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 8px;
   }
-  
   .cars .card .card-img-top {
 	width: 320px;
-	height: 180px;
+	height: 260px;
   }
   .cars .card .cars__p {
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 16px;
 	height: 50px;
   }
-
   .btn-utama {
 	background-color: #5CB85F;
 	color: #ffff;
-	border-radius: 0;
   }
-  

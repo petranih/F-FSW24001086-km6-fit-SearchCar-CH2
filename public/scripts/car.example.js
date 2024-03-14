@@ -39,6 +39,7 @@ class Car {
         this.availableAt = availableAt;
     }
 
+    // isi dalam card
     render() {
         return `
 
