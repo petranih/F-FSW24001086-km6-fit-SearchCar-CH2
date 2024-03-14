@@ -11,12 +11,12 @@ const PORT = 8000;
 const server = (req, res) => {
 
     if (req.url ==='/') {
-        res.end('ini default server')
+        req.url = "/index.html"
     }
-    else if (req.url === '/search') {
-        res.end("ini halaman search")
+    else if (req.url === '/car') {
+        req.url = "/car.html"
     } else {
-        res.end("gak ada...")
+        req.url = req.url;
     }
     const parseURL = url.parse(req.url);
     const pathName = `${parseURL.pathname}`;
